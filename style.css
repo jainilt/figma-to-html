@@ -1,11 +1,19 @@
-*{
+:root{
+  --primary-color: #000;
+  --btn_orange: #FB8E0B
+}
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  }
+  
+body {
+  font-family: "Arvo", serif;
+  ;
 }
-body{
-  font-family: "Arvo", serif;;
-}
+
 .arvo-regular {
   font-family: "Arvo", serif;
   font-weight: 400;
@@ -29,16 +37,46 @@ body{
   font-weight: 700;
   font-style: italic;
 }
-.nav{
+
+.nav {
   display: flex;
   margin: 20px 0;
 }
-.navbar,.navbar-ul{
+
+.navbar,
+.navbar-ul {
   font-family: sans-serif !important;
   display: flex;
   list-style: none;
   justify-content: space-between;
-  width: 64%;
+  width: 61%;
   align-items: center;
   margin: 0 auto;
+  position: relative;
+  left: -15px;
 }
+
+.navigate {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  /* margin: 0 -80px 0 209px; */
+  position: relative;
+  right: -97px;
+  }
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+.navigate button{
+  background: var(--btn_orange);
+  border: none;
+  margin: 0 -149px 0 23px;
+  /* padding: 0 15px; */
+  height: 48px;
+  /* width: 157px; */
+  border-radius: 18%;
+  width: 147px;
+  /* max-width: 115px; */
+}
+.navigate li{display: flex;justify-content: space-evenly;align-items: center;}
