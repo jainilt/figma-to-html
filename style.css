@@ -262,12 +262,75 @@ p.small-text {
 
 .clients {
   background-image: url(./bg2.png);
-  background-size: 100;
-  content: '';
+  background-size: 100%;
+  /* content: ''; */
   text-align: center;
+  background-position: center;
+  padding: 58px 0;
 }
 
 .clients h1 {
   font-size: 45px;
   color: var(--three);
+  margin-bottom: 35px;
+}
+
+.cards {
+  display: flex;
+  gap: 115px;
+  max-width: 1440px;
+  margin: 0 129px;
+}
+
+.card1 {
+  display: flex;
+}
+
+.card1 {
+  background-color: #fff;
+  width: 600px;
+  border-radius: 8px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  /* margin: 0 auto; */
+  position: relative;
+}
+
+.card2 {
+  background-color: #fff;
+  width: 600px;
+  border-radius: 8px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.card1 h4 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: var(--p2);
+}
+.card2 h4 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: var(--p2);
+}
+
+.card1::before{
+  content: '';
+  width: 0;
+  height: 0;
+  border-top: 18px solid transparent;
+  border-bottom: 18px solid transparent;
+  border-left: 18px solid white;
+  transform: rotate(90deg);
+  position: absolute;
+  bottom: -26px;
+  left: 46%;
+}
+.clients{
+  font-family: "DM Sans", sans-serif;
 }
