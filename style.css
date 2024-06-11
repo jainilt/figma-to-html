@@ -167,35 +167,74 @@ a.cta {
 p.small-text {
   margin-top: 5px;
 }
-.selling{
-  margin: 21px 152px ;
+
+.selling {
+  margin: 21px 152px;
   padding: 0 15px;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #F8F8FA;
 }
+
 .selling h3 {
   font-size: 50px;
   margin-bottom: 29px;
 }
-.selling-right{
+
+.selling-right {
+  width: 50%;
+  height: 419px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.selling-left {
   width: 50%;
 }
-.selling-left{
-  width: 50%;
-}
+
 .chat {
   background: #F7F8FA;
-  width: 336px;
+  width: auto;
   font-size: 22px;
   display: flex;
   gap: 10px;
   border-radius: 8px;
-  height: 63px;
+  height: auto;
+  padding: 12px;
 }
-.first-text-box{
+
+.first-text-box {
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: stretch; */
   gap: 20px;
+  margin-top: 27px;
+  margin-left: 13px;
+}
+
+.selling-right {
+  background: #fff;
+  box-shadow: 0 0 50px #ccc;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.bgorange {
+  background: var(--p2);
+  padding: 10px 44px 10px 13px;
+  margin-left: 61px;
+  margin-top: 30px;
+}
+
+.second-text-box img {
+  float: right;
+  margin-right: 13px;
+  margin-left: 28px;
+}
+.dot{
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background: var(--body);
+  padding: 7px;
 }
