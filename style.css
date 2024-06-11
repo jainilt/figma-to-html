@@ -168,14 +168,16 @@ a.cta {
 p.small-text {
   margin-top: 5px;
 }
-
+.sellingall{
+  background-color: #F8F8FA;
+  padding: 40px 0;
+}
 .selling {
   margin: var(--margin-all);
   padding: 0 15px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #F8F8FA;
   gap: 35px;
 }
 
@@ -258,6 +260,7 @@ p.small-text {
 
 .bgw {
   background: #fff;
+  padding: 40px 0;
 }
 
 .clients {
@@ -277,9 +280,10 @@ p.small-text {
 
 .cards {
   display: flex;
-  gap: 115px;
+  /* gap: 115px; */
   max-width: 1440px;
   margin: 0 129px;
+  justify-content: space-between;
 }
 
 .card1 {
@@ -306,6 +310,7 @@ p.small-text {
   display: flex;
   flex-direction: column;
   padding: 30px;
+  position: relative;
 }
 
 .card1 h4 {
@@ -331,6 +336,34 @@ p.small-text {
   bottom: -26px;
   left: 46%;
 }
+.card2::before{
+  content: '';
+  width: 0;
+  height: 0;
+  border-top: 18px solid transparent;
+  border-bottom: 18px solid transparent;
+  border-left: 18px solid white;
+  transform: rotate(90deg);
+  position: absolute;
+  bottom: -26px;
+  left: 46%;
+}
 .clients{
   font-family: "DM Sans", sans-serif;
+}
+.review {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  gap: 17px;
+}
+
+.review-text {
+  line-height: 25px;
+  color: white;
+}
+.review-text h5{
+  font-size: 20px;
 }
