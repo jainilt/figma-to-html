@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Arvo", serif;;
+}
+.arvo-regular {
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.arvo-bold {
+  font-family: "Arvo", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.arvo-regular-italic {
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.arvo-bold-italic {
+  font-family: "Arvo", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+.nav{
+  display: flex;
+  margin: 20px 0;
+}
+.navbar,.navbar-ul{
+  font-family: sans-serif !important;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: 64%;
+  align-items: center;
+  margin: 0 auto;
+}
