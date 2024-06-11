@@ -10,6 +10,7 @@
   --three: #F8F8FA;
   --p1: #FB8E0B;
   --p2: #FD6003;
+  --margin-all: 21px 152px;
 }
 
 * {
@@ -50,7 +51,7 @@ body {
 .navbar {
   display: flex;
   justify-content: space-between;
-  margin: 21px 152px;
+  margin: var(--margin-all);
   align-items: center;
   font-family: "DM Sans", sans-serif;
   font-weight: 500;
@@ -169,12 +170,13 @@ p.small-text {
 }
 
 .selling {
-  margin: 21px 152px;
+  margin: var(--margin-all);
   padding: 0 15px;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #F8F8FA;
+  gap: 35px;
 }
 
 .selling h3 {
@@ -184,7 +186,7 @@ p.small-text {
 
 .selling-right {
   width: 50%;
-  height: 419px;
+  height: 509px;
   font-family: "DM Sans", sans-serif;
 }
 
@@ -217,6 +219,7 @@ p.small-text {
   box-shadow: 0 0 50px #ccc;
   border-radius: 8px;
   padding: 20px;
+  margin: 20px 0;
 }
 
 .bgorange {
@@ -231,10 +234,40 @@ p.small-text {
   margin-right: 13px;
   margin-left: 28px;
 }
-.dot{
+
+.dot {
   height: 6px;
   width: 6px;
   border-radius: 50%;
   background: var(--body);
   padding: 7px;
+}
+
+.ti {
+  border-radius: 4px;
+  height: 44px;
+  width: 100%;
+  margin-top: 23px;
+  padding: 16px;
+  font-size: 18px;
+}
+
+.text-input {
+  text-align: center;
+}
+
+.bgw {
+  background: #fff;
+}
+
+.clients {
+  background-image: url(./bg2.png);
+  background-size: 100;
+  content: '';
+  text-align: center;
+}
+
+.clients h1 {
+  font-size: 45px;
+  color: var(--three);
 }
