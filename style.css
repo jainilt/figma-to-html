@@ -187,7 +187,7 @@ p.small-text {
 }
 
 .selling-right {
-  width: 50%;
+  width: 52%;
   height: 509px;
   font-family: "DM Sans", sans-serif;
 }
@@ -221,7 +221,7 @@ p.small-text {
   box-shadow: 0 0 50px #ccc;
   border-radius: 8px;
   padding: 20px;
-  margin: 20px 0;
+  /* margin: 20px 0; */
 }
 
 .bgorange {
