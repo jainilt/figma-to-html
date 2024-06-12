@@ -103,45 +103,62 @@ a.btn-text {
 
 .bg-img img {
   width: 100%;
-  height: auto;
+  /* height: auto; */
+  position: relative;
+  /* bottom: 70px; */
+  /* margin: 0 auto; */
 }
 
 .text h3 {
-  font-size: 3.125rem;
+  font-size: 2.5rem;
   margin-bottom: 1.8125rem;
+  align-items: center;
+  text-align: center;
+  margin: 0 1rem;
 }
 
 section.bg {
-  max-width: 90rem;
-  padding: 0 0.9375rem;
-  margin: 0 9.5rem;
-  display: flex;
+  /* max-width: 90rem; */
+  /* padding: 0 0.9375rem; */
+  /* margin: 0 -0.5rem; */
+  /* display: flex; */
   align-items: center;
   justify-content: center;
   margin-bottom: 5rem;
+  /* width: 20rem; */
+  text-align: center;
+  margin-top: 2rem;
 }
 
 .text {
-  width: 50%;
+  /* width: 50%; */
+  text-align: center;
 }
 
 .text-line {
   margin-bottom: 1.8125rem;
+  /* font-size: 0.5rem; */
+  /* text-align: center; */
+  /* width: 10rem; */
+  text-align: center;
 }
 
 .bg-img {
-  width: 50%;
+  width: 100%;
 }
 
 a.cta {
-  height: 3.5rem;
-  width: 13.75rem;
+  /* height: 3.5rem; */
+  width: 80%;
   background: var(--p1);
   align-items: center;
   display: flex;
   justify-content: center;
   border-radius: 0.5rem;
   color: #fff;
+  /* text-align: center; */
+  padding: 18px 0px;
+  margin: 0 auto;
 }
 
 .features h3 {
@@ -150,9 +167,10 @@ a.cta {
 }
 
 .features {
-  margin: 0 9.5rem;
-  padding: 0 0.9375rem;
+  /* margin: 0 9.5rem; */
+  /* padding: 0 0.9375rem; */
   margin-bottom: 4.0625rem;
+  /* max-width: 100%; */
 }
 
 .f1text {
@@ -160,8 +178,9 @@ a.cta {
 }
 
 .feature3 {
-  display: flex;
-  gap: 4.0625rem;
+  /* display: flex; */
+  /* gap: 4.0625rem; */
+  margin: 0 1rem;
 }
 
 .f1, .f2, .f3 {
@@ -176,31 +195,37 @@ p.small-text {
 
 .sellingall {
   background-color: #F8F8FA;
-  padding: 2.5rem 0;
+  /* padding: 2.5rem 0; */
+  /* height: 61rem; */
 }
 
 .selling {
-  margin: var(--margin-all);
-  padding: 0 0.9375rem;
-  display: flex;
+  /* margin: var(--margin-all); */
+  /* padding: 0 0.9375rem; */
+  /* display: flex; */
   align-items: center;
   justify-content: center;
-  gap: 2.1875rem;
+  /* gap: 2.1875rem; */
 }
 
 .selling h3 {
-  font-size: 3.125rem;
+  /* font-size: 3.125rem; */
   margin-bottom: 1.8125rem;
+  text-align: center;
+  margin-top: 2rem;
 }
 
 .selling-right {
-  width: 52%;
+  /* width: 52%; */
   height: 31.8125rem;
   font-family: "DM Sans", sans-serif;
 }
 
 .selling-left {
-  width: 50%;
+  /* width: 50%; */
+  padding: 42px 0;
+  order: 1;
+  display: block;
 }
 
 .chat {
@@ -224,9 +249,12 @@ p.small-text {
 
 .selling-right {
   background: #fff;
-  box-shadow: 0 0 3.125rem #ccc;
+  /* box-shadow: 0 0 3.125rem #ccc; */
   border-radius: 0.5rem;
   padding: 1.25rem;
+  /* display: none; */
+  order: 2;
+  /* margin-top: 7rem; */
 }
 
 .bgorange {
@@ -266,6 +294,7 @@ p.small-text {
 .bgw {
   background: #fff;
   padding: 2.5rem 0;
+  display: grid;
 }
 
 .clients {
@@ -275,6 +304,7 @@ p.small-text {
   background-position: center;
   padding: 3.625rem 0;
   margin-bottom: 7.5rem;
+  margin-top: 5rem;
 }
 
 .clients h1 {
@@ -344,8 +374,8 @@ p.small-text {
 }
 
 .footer {
-  max-width: 90rem;
-  margin: 0 9.5rem;
+  /* max-width: 90rem; */
+  /* margin: 0 9.5rem; */
 }
 
 .footer h2 {
@@ -372,26 +402,28 @@ p.small-text {
 }
 
 .ftthree-one, .ftthree-two, .ftthree-three {
-  display: flex;
+  /* display: flex; */
   justify-content: space-between;
   align-items: center;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 .ftthree-two ul {
   display: flex;
-  justify-content: space-between;
-  gap: 3.4375rem;
+  justify-content: space-around;
+  margin-bottom: 2rem;
 }
 
 .ftthree {
-  display: flex;
+  /* display: flex; */
   justify-content: space-between;
   margin-top: 4.5rem;
 }
 
 .ftthree-three ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   gap: 1.3125rem;
   align-items: center;
 }
@@ -401,15 +433,18 @@ p.small-text {
 }
 
 .copyright hr {
-  margin: 0 9.5rem;
+  /* margin: 0 9.5rem; */
 }
 
 .below-hr {
   display: flex;
-  justify-content: space-between;
-  margin: 0 9.5rem;
+  justify-content: right;
+  /* margin: 0 9.5rem; */
   opacity: 0.7;
   margin-bottom: 1.875rem;
+  /* margin: 0; */
+  width: 100%;
+  text-align: center;
 }
 
 .privacy span {
@@ -429,7 +464,7 @@ p.small-text {
 
   .pages, .buttons {
     display: none;
-    width: 100%;
+    /* width: 100%; */
   }
 
   .pages ul, .buttons ul {
@@ -463,7 +498,7 @@ p.small-text {
   }
 
   .logo img {
-    width: 6.25rem;
+    width: 3.25rem;
   }
 
   .pages ul {
