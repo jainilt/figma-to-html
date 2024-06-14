@@ -428,9 +428,12 @@ p.small-text {
 
 .ftthree-three ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   gap: 1.3125rem;
   align-items: center;
+  width: 40%;
+  /* text-align: center; */
+  margin: 0 auto;
 }
 
 .hr {
@@ -442,11 +445,11 @@ p.small-text {
 }
 
 .below-hr {
-  display: flex;
+  /* display: flex; */
   justify-content: right;
   /* margin: 0 9.5rem; */
   opacity: 0.7;
-  margin-bottom: 1.875rem;
+  margin-bottom: 2rem;
   /* margin: 0; */
   width: 100%;
   text-align: center;
@@ -523,4 +526,14 @@ p.small-text {
 }
 .soheb2{
   display: none;
+}
+.selling-p{
+  margin: 0 25px;
+}
+.privacy {
+  margin-top: 1rem;
+}
+
+section.copyright {
+  margin-bottom: 7rem;
 }
