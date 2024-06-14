@@ -171,22 +171,27 @@ a.cta {
   /* padding: 0 0.9375rem; */
   margin-bottom: 4.0625rem;
   /* max-width: 100%; */
+  overflow-x: hidden;
 }
 
 .f1text {
   line-height: 1.875rem;
+  display: flex;
+  flex-direction: column;
+  width: 167px;
 }
 
 .feature3 {
-  /* display: flex; */
+  display: flex;
   /* gap: 4.0625rem; */
   margin: 0 1rem;
 }
 
 .f1, .f2, .f3 {
-  display: flex;
+  /* display: flex; */
   flex-direction: row;
   gap: 1.25rem;
+  margin: 0 34px;
 }
 
 p.small-text {
